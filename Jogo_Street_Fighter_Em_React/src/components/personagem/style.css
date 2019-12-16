@@ -1,0 +1,52 @@
+.personagem{
+
+    height: 100px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: contain;
+    cursor: pointer;
+    position: relative;
+    filter: grayscale(100%)
+  
+}
+
+#personagemColorido{
+    filter: none;
+}
+
+.nomePersonagem {
+   opacity: 0;
+   height: 0px;
+   transition: height 0.7s;
+  
+}
+
+input[type="radio"]{
+    visibility: hidden;
+    
+}
+
+
+
+input[type="radio"]:checked + .nomePersonagem {
+    width: 90px;
+    height: 15px;
+    background-color: rgba(255, 0, 0, 0.57);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 1;
+    
+    
+}
+
+
+
+

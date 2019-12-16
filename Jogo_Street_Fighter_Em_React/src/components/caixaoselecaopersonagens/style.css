@@ -1,0 +1,58 @@
+.selecaoPersonagens{
+
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.selecaoPersonagens img{
+    padding-top: 60px;
+    width: 250px;
+    height: 280px;
+    filter: drop-shadow(-10px 10px 0px #000000);
+  
+   
+}
+
+.selecaoPersonagens .nomeDoPersonagem{
+    font-family: Permanent Marker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 0px #000000;
+}
+
+
+.textoSelecionar{
+    padding: 60px 0;
+    font-family: Permanent Marker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 552px;
+    height: 340px;
+    text-shadow: 10px 10px 0px #000000;
+    color: white;
+}
+
+.caixaPersonagens{
+
+    width: 478px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 208px;
+   
+   
+}

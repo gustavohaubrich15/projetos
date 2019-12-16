@@ -1,0 +1,139 @@
+.boxLuta{
+    height: 100vh;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+
+.barraENome{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 47px;
+}
+
+.vidaAtual{
+
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background: #60D080;
+    border-radius: 3px 0px 0px 3px;
+    transition: width 0.6s;
+}
+
+
+
+.barraDeVida{
+
+    width: 550px;
+    height: 29px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    background-color: red;
+    margin-top: 41px;
+    text-align: center;
+    
+   
+}
+
+.nomeJogador{
+    margin-top: 5px;
+    width: 100%;
+    height: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.separacaoPersonagemEPoder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.separacaoPersonagemEPoder img{
+    width: 265px;
+    height: 285px;
+}
+
+
+.personagemEPoderes{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+
+.personagemEPoderes .poderes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+
+.poderes .texto{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF; 
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+
+.ataques{
+    width: 250px;
+    height: 44px;
+    background: linear-gradient(90deg, rgba(21, 130, 165, 0.8) 73.89%, rgba(20, 103, 129, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+    
+}
+
+.ataques .danoETurno{
+
+    font-size: 11px;
+}
+
+.ataques:hover{
+    opacity: 0.6;
+}
