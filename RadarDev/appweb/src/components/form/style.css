@@ -1,0 +1,89 @@
+
+.formDev{
+    padding: 100px;
+}
+
+aside{
+    width: 320px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #FFF;
+    border-radius: 2px;
+    padding: 30px 20px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+}
+
+aside strong{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+aside form .input-block label{
+    color:#666;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+aside form .input-block{
+    width: 100px;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom:  1px solid #eee;
+}
+
+aside form .input-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+aside form button{
+    width: 100%;
+
+    border: none;
+    background: #7d40e7;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition:  background 0.5s;
+}
+
+aside form button:hover{
+    background: #6931ca;
+}
+
+.label-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.label-block input{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#latitude{
+    width: 80%;
+}
+#longitude{
+    width: 80%;
+}
