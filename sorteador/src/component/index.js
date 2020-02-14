@@ -1,0 +1,1 @@
+export {CardJogador} from './cardjogador/cardjogador.component'

@@ -1,0 +1,84 @@
+.escalacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 430px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    height: 100%;
+    width: 50%;
+}
+
+.versus{
+    padding-top: 221px;
+    height: 100%;
+}
+
+.voltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   
+}
+
+.bot{
+    height: 30px;
+    width: 100px;
+    background: #000000;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: white;
+}
+
+.time{
+    padding-top: 20px;
+}
+
+.colete{
+    height: 50%;
+    width: 20%;
+}
+
+.colete svg{
+    height: 50%;
+    width: 100%;
+}
+
+.camisa{
+    height: 50%;
+    width: 20%;
+}
+
+.camisa svg{
+    height: 50%;
+    width: 100%;
+}
+
+.nomeTime{
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+}
+
+.descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
